@@ -146,11 +146,11 @@ li a:focus {
     background: rgb(13, 53, 255);
     mix-blend-mode: difference;
   }
-  /* alternate 'red' version  */
+  /* alternate 'red' version  
   body.red .spot-grad::after {
     background: rgb(53, 107, 215);
   }
-}
+}*/
 
 /* tones down the Frankenstein effect */
 @supports (mix-blend-mode: overlay) {
@@ -159,11 +159,11 @@ li a:focus {
     background: hsl(248, 17%, 66%);
     mix-blend-mode: overlay;
   }
-  /* alternate 'red' version   */
+  /* alternate 'red' version   
   body.red .adjust {
     background: hsl(322, 28%, 53%);
   }
-}
+}*/
 /* Remove margins and padding from the list, and add a black background color */
 ul.topnav {
     list-style-type: none;
@@ -438,6 +438,6 @@ body.red .spot::after {
   margin-top: -3%;
 }
 footer{
-  background: #EAEAEA; 
-  margin-top: -3%;
+  background: linear-gradient(to right,#720099,#990E79, #84C6B6);
+ color:#EAEAEA;
 }
