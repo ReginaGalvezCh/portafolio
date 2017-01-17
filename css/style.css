@@ -1,0 +1,469 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+.nav-wrapper {
+  background-color: white;
+  color: #0089ec; }
+
+.nav {
+  color: #0089ec; }
+
+nav ul a {
+  color: #0089ec; }
+
+nav .brand-logo {
+  color: #0089ec;
+  margin-top: auto; }
+
+.yo {
+  opacity: 0.5;
+  max-width: 100%;
+  height: auto; }
+
+.valign {
+  position: absolute;
+  margin-left: 37%;
+  margin-top: -15%; }
+
+.sobreMi {
+  margin-left: -2%;
+  color: #0089ec; }
+
+.call {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+.imagenS {
+  position: relative;
+  width: 100%; }
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-50%, -50%); }
+
+.iconos {
+  height: 100%;
+  width: 100px;
+  margin-left: 40%; }
+
+.row {
+  margin: 5%; }
+
+section {
+  margin: 5%; }
+
+a {
+  text-decoration: none;
+  margin-top: -5%; }
+
+.fa-2x {
+  margin: 7px; }
+
+.cuadrado {
+  width: 260px;
+  height: 160px;
+  border: 5px solid #008CBA;
+  margin-left: 20%; }
+
+.materialboxed {
+  margin-top: 5px; }
+
+.iconostxt {
+  margin-left: 30%; }
+
+.spot-grad::before,
+.spot-grad::after,
+.adjust {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  pointer-events: none; }
+
+@supports (filter: grayscale(1)) {
+  .spot-grad img {
+    filter: grayscale(1) contrast(0.7) brightness(1.3); } }
+#toggle {
+  display: block;
+  width: 28px;
+  height: 30px;
+  margin: 30px auto 10px; }
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px; }
+
+#toggle span:after {
+  top: 9px; }
+
+#toggle span {
+  position: relative;
+  display: block; }
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 5px;
+  background-color: #888;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px; }
+
+/*nav*/
+nav {
+  background: linear-gradient(to right, #720099, #990E79, #84C6B6);
+  color: #E5E5E5; }
+
+nav .brand-logo {
+  padding: 1%; }
+
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white; }
+
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s; }
+
+li a:hover,
+li a:focus {
+  background: #1ABC9C;
+  color: #fff; }
+
+/* main color */
+@supports (mix-blend-mode: exclusion) {
+  .spot-grad::before {
+    z-index: 1;
+    background: #7e0896;
+    mix-blend-mode: exclusion; }
+
+  /* alternate 'red' version   */
+  body.red .spot-grad::before {
+    background: #005166; } }
+.imgsize {
+  max-height: 100%;
+  max-width: 100%; }
+
+/* bring in the secondary tones */
+@supports (mix-blend-mode: difference) {
+  .spot-grad::after {
+    z-index: 2;
+    background: #0d35ff;
+    mix-blend-mode: difference; } }
+/* tones down the Frankenstein effect */
+@supports (mix-blend-mode: overlay) {
+  .adjust {
+    z-index: 3;
+    background: #9d9ab7;
+    mix-blend-mode: overlay; } }
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+/* Float the list items side by side */
+ul.topnav li {
+  float: left; }
+
+/* Style the links inside the list items */
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px; }
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: #555; }
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none; }
+
+.imgcolor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  margin-top: 10%; }
+
+.margen {
+  margin-top: 2%; }
+
+.container {
+  max-width: 50rem;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem auto 0; }
+
+.spot-grad {
+  position: relative;
+  min-height: 10rem;
+  max-height: 15rem;
+  margin: 0;
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1; }
+
+.spot-grad img {
+  object-fit: cover;
+  max-width: 100%; }
+
+/* reverts the image to original on hover */
+.spot-grad:hover::before,
+.spot-grad:hover::after,
+.spot-grad:hover .adjust {
+  opacity: 0; }
+
+.spot-grad:hover img {
+  filter: none; }
+
+@media screen and (min-width: 40rem) {
+  .grid-container {
+    padding: 0 1rem;
+    margin-bottom: 2rem; }
+
+  .spot-grad:not(:nth-of-type(1)) {
+    flex-basis: calc(50% - 0.25em);
+    margin-top: 0.5rem; }
+
+  .spot-grad:nth-child(2n+3) {
+    margin-left: 0.5em; } }
+@media screen and (min-width: 62rem) {
+  header {
+    font-size: 1.4rem; } }
+.primer {
+  color: #77009F;
+  margin-left: -95%;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px; }
+
+.izquierdo {
+  margin-left: -95%;
+  color: #77009F;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px; }
+
+.derecho {
+  margin-left: -95%;
+  color: #77009F;
+  background-color: rgba(255, 255, 255, 0.65);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 15px; }
+
+.proyectos {
+  padding: 2%;
+  background: #EAEAEA;
+  margin-top: -20%;
+  margin-bottom: -15%; }
+
+.margen {
+  margin-top: 2%; }
+
+.sm {
+  color: #0089ec;
+  margin-bottom: 5%; }
+
+  /*
+  Responsive CSS MacBook Retina Mockup by Henri Peetsmann
+  http://codepen.io/henripeetsmann/
+*/
+.css-mb {
+  max-width: 650px;
+  /* Set the desired maximum width of the macbook */
+  min-width: 50px;
+  /* Set the desired minimum width of the macbook */
+  margin: 0 auto;
+  /* Align mockup to center */
+  margin-bottom: 10%; }
+
+.css-mb div {
+  box-sizing: border-box !important;
+  /* Just in case */ }
+
+/* Center the display */
+.css-mb .mb-display-position {
+  width: 80%;
+  margin: 0 auto; }
+
+/* The display */
+.css-mb .mb-display {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 65.9442%;
+  background: #373435;
+  -webkit-border-top-left-radius: 3.5% 5.3075%;
+  -moz-border-radius-topleft: 3.5% 5.3075%;
+  border-top-left-radius: 3.5% 5.3075%;
+  -webkit-border-top-right-radius: 3.5% 5.3075%;
+  -moz-border-radius-toptight: 3.5% 5.3075%;
+  border-top-right-radius: 3.5% 5.3075%; }
+
+/* Webcam */
+/* Browser may not render a perfect circle */
+.css-mb .mb-display:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  width: 1%;
+  height: 1.5164%;
+  margin-left: -0.5%;
+  border-radius: 50%;
+  background: #525252; }
+
+/* Glare */
+/* Browser may not render the top and right offset evenly */
+.css-mb .mb-display:after {
+  content: '';
+  display: none;
+  position: absolute;
+  right: 0.4%;
+  top: 0.64%;
+  width: 62.5%;
+  height: 100%;
+  background: none;
+  /* Hide the gradient on older browsers */
+  background: -moz-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(36deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* Chrome10+ and Safari5.1+ compute the degree differently */
+  background: -o-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  /* IE10+ */
+  background: linear-gradient(55deg, transparent 61%, rgba(255, 255, 255, 0.05) 61%);
+  -webkit-border-top-right-radius: 5.3075%;
+  -moz-border-radius-toptight: 5.3075%;
+  border-top-right-radius: 5.3075%; }
+
+/* Only show glare, if the class is applied */
+.css-mb.with-glare .mb-display:after {
+  display: block; }
+
+/* Position the screen and give make it the right size, ratio 16:10 */
+.css-mb .mb-screen-position {
+  position: absolute;
+  top: 6.5%;
+  width: 93.2%;
+  left: 3.4%;
+  height: 0;
+  margin: 0;
+  padding-bottom: 58.25%;
+  /* Ratio */ }
+
+/* Give parent (this element) a "height", so that child elements can use height: 100%;*/
+.css-mb .mb-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: #4b4b4d;
+  /* bg color if content is not big enough, or rendering is off */ }
+
+/* Image on the screen */
+.css-mb .mb-screen img {
+  max-width: 100%;
+  height: auto; }
+
+/* Iframe on the screen */
+.css-mb .mb-screen iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
+/* Macbook body */
+.css-mb .mb-body {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 2.3%;
+  background: #e6e7e8; }
+
+/* The groove */
+.css-mb .mb-body:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 14.0740%;
+  height: 0;
+  padding-bottom: 1.4814%;
+  margin-left: -7.037%;
+  background: #a9abae;
+  -webkit-border-bottom-left-radius: 7.0370% 50%;
+  -moz-border-radius-bottomleft: 7.0370% 50%;
+  border-bottom-left-radius: 7.0370% 50%;
+  -webkit-border-bottom-right-radius: 7.0370% 50%;
+  -moz-border-radius-bottomtight: 7.0370% 50%;
+  border-bottom-right-radius: 7.0370% 50%; }
+
+/* Macbook bottom */
+.css-mb .mb-bottom-cover {
+  width: 100%;
+  height: 0;
+  padding-bottom: 0.7407%;
+  background: #a9abae;
+  -webkit-border-bottom-left-radius: 12% 600%;
+  -moz-border-radius-bottomleft: 12% 600%;
+  border-bottom-left-radius: 12% 600%;
+  -webkit-border-bottom-right-radius: 12% 600%;
+  -moz-border-radius-bottomtight: 12% 600%;
+  border-bottom-right-radius: 12% 600%; }
+
+footer.page-footer {
+  background-color: white;
+  color: #0089ec;
+  max-height: 200px; }
+
+.grey-text.text-lighten-3 {
+  color: #0089ec !important; }
+
+.grey-text.text-lighten-4 {
+  color: #0089ec !important; }
+
+/*# sourceMappingURL=style.css.map */
