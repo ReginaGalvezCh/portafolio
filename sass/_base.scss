@@ -333,7 +333,11 @@ ul.topnav li.icon {display: none;}
     padding: 15px;
 
   }
+  //iconos
 
+
+
+//proyectos
   .proyectos{
     padding: 2%;
     background: #EAEAEA;
@@ -346,8 +350,27 @@ ul.topnav li.icon {display: none;}
   .sm{
     color: #77009F;
   	margin-bottom: 5%;
+    animation: bg-color 10s infinite;
+   -webkit-animation: bg-color 10s infinite;
+
   }
-css-mb {
+  @-webkit-keyframes bg-color {
+  0% {color: #e74c3c; }
+  20% {color: #f1c40f; }
+  40% {color: #1abc9c; }
+  60% {color: #3498db; }
+  80% {color: #9b59b6; }
+  100% {color: #e74c3c; }
+}
+@keyframes bg-color {
+  0% { color: #e74c3c; }
+  20% {color: #f1c40f; }
+  40% {color: #1abc9c; }
+  60% { color: #3498db; }
+  80% {color: #9b59b6; }
+  100% { color: #e74c3c; }
+}
+.css-mb {
   max-width: 650px; /* Set the desired maximum width of the macbook */
   min-width: 50px; /* Set the desired minimum width of the macbook */
   margin: 0 auto; /* Align mockup to center */
