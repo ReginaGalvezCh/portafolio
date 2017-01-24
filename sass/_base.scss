@@ -52,12 +52,25 @@ nav .brand-logo{
 	transform: translate(-25%, -25%);
 	-ms-transform: translate(-50%, -50%);
 }
-.iconos{
-	height:100%;
-	width:100px;
-	margin-left: 40%;
+//iconos
 
+.iconos{
+	height:50%;
+	width:50%;
+	margin-left: 40%;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
+ 
+.iconos:hover {
+  width: 100%;
+  height: 100%;
+}
+
 .row{
 	margin:5%;
 } 
@@ -74,8 +87,7 @@ a {
 .cuadrado{
 	width: 260px;
 	height: 160px;
-	border: 5px solid #008CBA;
-	margin-left: 20%;
+
 }
 .materialboxed{
 	margin-top: 5px;
@@ -141,6 +153,7 @@ nav{
 }
 nav .brand-logo {
 	padding: 1%;
+
 }
 
 #menu:after {
@@ -347,6 +360,7 @@ ul.topnav li.icon {display: none;}
  .margen{
     margin-top: 2%;
   }
+  //transicion de colores
   .sm{
     color: #77009F;
   	margin-bottom: 5%;
