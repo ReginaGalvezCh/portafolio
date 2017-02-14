@@ -1,18 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+h1,h4{
+  font-family: 'Raleway', sans-serif;
+}
 .nav-wrapper{
-	background-color: white;
-    color: #77009F;
+background-color: white;
+color: #77009F;
 	
 }
 .nav{
     color: #77009F;
 }
 nav ul a {
-    color: #77009F;
+font-family: 'Raleway', sans-serif;
+color: #77009F;
 	
 }
 nav .brand-logo{
-    color: #77009F;
-	margin-top: auto;
+font-family: 'Raleway', sans-serif;
+color: #77009F;
+margin-top: auto;
 }
 
 
@@ -23,8 +29,9 @@ nav .brand-logo{
 	height: auto;
 }
 .valign{
+ font-family: 'Raleway', sans-serif;
 	position: absolute;
-	margin-left: 37%;
+	margin-left: 27%;
 	margin-top: -15%;
 }
 .sobreMi{
@@ -201,6 +208,7 @@ li a:focus {
 .imgsize{
 	max-height: 100%;
 	max-width: 100%;
+  
 }
 /* bring in the secondary tones */
 @supports (mix-blend-mode: difference) {
@@ -363,6 +371,7 @@ ul.topnav li.icon {display: none;}
   }
   //transicion de colores
   .sm{
+
     color: #77009F;
   	margin-bottom: 5%;
     animation: bg-color 10s infinite;

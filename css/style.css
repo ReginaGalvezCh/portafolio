@@ -1,4 +1,8 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+h1, h4 {
+  font-family: 'Raleway', sans-serif; }
+
 .nav-wrapper {
   background-color: white;
   color: #77009F; }
@@ -7,9 +11,11 @@
   color: #77009F; }
 
 nav ul a {
+  font-family: 'Raleway', sans-serif;
   color: #77009F; }
 
 nav .brand-logo {
+  font-family: 'Raleway', sans-serif;
   color: #77009F;
   margin-top: auto; }
 
@@ -19,8 +25,9 @@ nav .brand-logo {
   height: auto; }
 
 .valign {
+  font-family: 'Raleway', sans-serif;
   position: absolute;
-  margin-left: 37%;
+  margin-left: 27%;
   margin-top: -15%; }
 
 .sobreMi {
