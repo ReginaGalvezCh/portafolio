@@ -55,7 +55,7 @@ nav .brand-logo {
 #skill {
   float: left;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 18px;
   width: 100px; }
 
 #skill:hover {
@@ -1163,7 +1163,7 @@ ul.topnav li.icon {
 
 footer.page-footer {
   background-color: white;
-  color: #77009F;
+  color: #77009F  !important;
   max-height: 200px; }
 
 .grey-text.text-lighten-3 {
@@ -1171,5 +1171,8 @@ footer.page-footer {
 
 .grey-text.text-lighten-4 {
   color: #77009F !important; }
+
+.abajo {
+  color: #77009F  !important; }
 
 /*# sourceMappingURL=style.css.map */

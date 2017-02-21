@@ -62,7 +62,7 @@ margin-top: auto;
 {
   float:left;
   margin-left:10px;
-  margin-right: 10px;
+  margin-right: 18px;
   width:100px;
 }
 #skill:hover{cursor:pointer;}
@@ -907,7 +907,7 @@ ul.topnav li.icon {display: none;}
 
 footer.page-footer{
   background-color: white;
-    color: #77009F;
+    color: #77009F  !important;
   
   max-height: 200px ;
 }
@@ -917,3 +917,8 @@ footer.page-footer{
 .grey-text.text-lighten-4{
     color: #77009F !important;
 }
+.abajo{
+  color: #77009F  !important;
+}
+
+
