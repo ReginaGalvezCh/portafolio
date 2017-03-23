@@ -1,7 +1,8 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-h1, h4 {
-  font-family: 'Raleway', sans-serif; }
+h1, h3, h4, h5 {
+  font-family: 'Sanchez', serif;
+  color: #990E79; }
 
 .nav-wrapper {
   background-color: white;
@@ -11,7 +12,8 @@ h1, h4 {
   color: #77009F; }
 
 nav ul a {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Handlee', cursive;
+  /*font-family: 'Delius Unicase', cursive;*/
   color: #77009F; }
 
 nav .brand-logo {
@@ -24,12 +26,14 @@ nav .brand-logo {
   max-width: 100%;
   height: auto; }
 
-.valign {
-  font-family: 'Raleway', sans-serif;
+ /*
+.valign{
+ font-family: 'Raleway', sans-serif;
   position: absolute;
   margin-left: 27%;
-  margin-top: -15%; }
-
+  margin-top: -15%;
+}
+*/
 .sobreMi {
   margin-left: -2%;
   color: #0089ec; }
@@ -153,9 +157,6 @@ nav .brand-logo {
   background: #31333F; }
 
 #skill:nth-child(3) .lista .contenido:nth-child(4) {
-  background: #31333F; }
-
-#skill:nth-child(3) .lista .contenido:nth-child(3) {
   background: #31333F; }
 
 #skill:nth-child(4) .lista .contenido:nth-child(10) {
@@ -314,56 +315,56 @@ i {
   transition: all 1s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(11) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
   color: #31333F; }
 
 #skill:nth-child(1):hover .contenido:nth-child(10) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(9) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 1.5s ease;
   -moz-transition: all 1.5s ease;
   transition: all 1.5s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(8) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 2s ease;
   -moz-transition: all 2s ease;
   transition: all 2s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(7) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 2.5s ease;
   -moz-transition: all 2.5s ease;
   transition: all 2.5s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(6) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 3s ease;
   -moz-transition: all 3s ease;
   transition: all 3s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(5) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 3.5s ease;
   -moz-transition: all 3.5s ease;
   transition: all 3.5s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(4) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 4s ease;
   -moz-transition: all 4s ease;
   transition: all 4s ease; }
 
 #skill:nth-child(1):hover .contenido:nth-child(3) {
-  background: #E35E13;
+  background: #BE0F97;
   -webkit-transition: all 4s ease;
   -moz-transition: all 4s ease;
   transition: all 4s ease; }
@@ -487,18 +488,6 @@ i {
   -webkit-transition: all 3.5s ease;
   -moz-transition: all 3.5s ease;
   transition: all 3.5s ease; }
-
-#skill:nth-child(3):hover .contenido:nth-child(3) {
-  background: #1abc9c;
-  -webkit-transition: all 4s ease;
-  -moz-transition: all 4.5s ease;
-  transition: all 4.5s ease; }
-
-#skill:nth-child(3):hover .contenido:nth-child(2) {
-  background: #1abc9c;
-  -webkit-transition: all 5s ease;
-  -moz-transition: all 5s ease;
-  transition: all 5s ease; }
 
 #skill:nth-child(4):hover .contenido:nth-child(11) {
   background: #37FF52;
@@ -651,7 +640,7 @@ i {
   transition: all 3.5s ease; }
 
 #skill:nth-child(7):hover .contenido:nth-child(11) {
-  background: #185DD9;
+  background: #3498db;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -663,13 +652,13 @@ i {
   color: #31333F; }
 
 #skill:nth-child(7):hover .contenido:nth-child(10) {
-  background: #185DD9;
+  background: #3498db;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
 #skill:nth-child(7):hover .contenido:nth-child(9) {
-  background: #185DD9;
+  background: #3498db;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease; }
@@ -948,6 +937,7 @@ ul.topnav li.icon {
     font-size: 1.4rem; } }
 .primer {
   color: #77009F;
+  font-family: 'Handlee', cursive;
   margin-left: -95%;
   background-color: rgba(255, 255, 255, 0.65);
   margin-top: 20px;
@@ -957,6 +947,7 @@ ul.topnav li.icon {
 
 .izquierdo {
   margin-left: -95%;
+  font-family: 'Handlee', cursive;
   color: #77009F;
   background-color: rgba(255, 255, 255, 0.65);
   margin-top: 20px;
@@ -966,6 +957,7 @@ ul.topnav li.icon {
 
 .derecho {
   margin-left: -95%;
+  font-family: 'Handlee', cursive;
   color: #77009F;
   background-color: rgba(255, 255, 255, 0.65);
   margin-top: 20px;
@@ -983,37 +975,46 @@ ul.topnav li.icon {
   margin-top: 2%; }
 
 .sm {
-  color: #77009F;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
   margin-bottom: 5%;
   animation: bg-color 10s infinite;
   -webkit-animation: bg-color 10s infinite; }
 
 @-webkit-keyframes bg-color {
   0% {
-    color: #e74c3c; }
+    color: #84C6B6; }
   20% {
-    color: #f1c40f; }
-  40% {
-    color: #1abc9c; }
-  60% {
     color: #3498db; }
+  40% {
+    color: #990E79; }
+  60% {
+    color: #720099; }
   80% {
-    color: #9b59b6; }
+    color: #1abc9c; }
   100% {
-    color: #e74c3c; } }
+    color: #84C6B6; } }
 @keyframes bg-color {
   0% {
-    color: #e74c3c; }
-  20% {
-    color: #f1c40f; }
-  40% {
-    color: #1abc9c; }
-  60% {
-    color: #3498db; }
-  80% {
     color: #9b59b6; }
+  20% {
+    color: #3498db; }
+  40% {
+    color: #990E79; }
+  60% {
+    color: #720099; }
+  80% {
+    color: #1abc9c; }
   100% {
-    color: #e74c3c; } }
+    color: #84C6B6; }
+  /*
+  0% { color: #e74c3c; }
+  20% {color: #f1c40f; }
+  40% {color: #1abc9c; }
+  60% { color: #3498db; }
+  80% {color: #9b59b6; }
+  100% { color: #e74c3c; }
+  */ }
 .css-mb {
   max-width: 650px;
   /* Set the desired maximum width of the macbook */
@@ -1161,6 +1162,10 @@ ul.topnav li.icon {
   -moz-border-radius-bottomtight: 12% 600%;
   border-bottom-right-radius: 12% 600%; }
 
+.contact {
+  font-family: 'Handlee', cursive;
+  font-size: 20px; }
+
 footer.page-footer {
   background-color: white;
   color: #77009F  !important;
@@ -1174,5 +1179,8 @@ footer.page-footer {
 
 .abajo {
   color: #77009F  !important; }
+
+.fa-4x {
+  color: #990E79; }
 
 /*# sourceMappingURL=style.css.map */
