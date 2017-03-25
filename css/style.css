@@ -1,5 +1,4 @@
 @import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 h1, h3, h4, h5 {
   font-family: 'Sanchez', serif;
   color: #990E79; }
@@ -15,11 +14,6 @@ nav ul a {
   font-family: 'Handlee', cursive;
   /*font-family: 'Delius Unicase', cursive;*/
   color: #77009F; }
-
-nav .brand-logo {
-  font-family: 'Raleway', sans-serif;
-  color: #77009F;
-  margin-top: auto; }
 
 .yo {
   opacity: 0.5;
